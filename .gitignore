@@ -1,0 +1,21 @@
+# 忽略所有文件
+*
+
+# 允许目录
+!*/
+data/ 
+# 允许代码文件
+!*.py
+!*.ipynb
+
+# 允许图片
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.bmp
+!*.svg
+
+# 保留 .gitignore 和空目录占位文件
+!.gitignore
+!.gitkeep
