@@ -31,6 +31,7 @@ class maxPol(nn.Module):
 #                       ,[1,0,0,3]
 #                        ,[0,3,2,1]])
 # #变换序列是元组不是列表
+#reshape 妙用 -1即代表由系统自己计算
 # input=torch.reshape(testdata,(-1,1,4,4))
 # print(testdata)
 # print(mp(input))
